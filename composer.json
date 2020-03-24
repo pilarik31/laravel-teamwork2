@@ -1,0 +1,31 @@
+{
+    "name": "pilarik31/teamwork",
+    "description": "PHP wrapper for the Teamwork project management API",
+    "keywords": ["teamwork", "api", "laravel", "project management"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ross Edman",
+            "email": "ross.edman@gmail.com"
+        }, 
+        {
+            "name": "Jan Pilař",
+            "email": "pilarjan4111@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~6.5"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Rossedman\\Teamwork\\": "src"
+        }
+    },
+    "suggest": {
+        "illuminate/support": "Required for Laravel support"
+    },
+    "minimum-stability": "stable"
+}
